@@ -1,0 +1,30 @@
+<!--pages/button/button.wxml-->
+<view class="container" style="padding:30rpx 0 0 0">  
+  	<button class="btnNormal">立即购买</button>
+
+  	<button class="btnNormal btnWhite">查看保单</button>
+
+	<view class="guideBtn" bindtap="getCall" data-za-title="联系客服">
+		<image class="call_icon" src="../../images/call_icon.png"></image>
+		<text class="call_text">联系客服</text>
+    </view>
+	
+	<view class="guideBtn guideBtn_b" bindtap="getCall" data-za-title="联系客服">
+        <image class="call_icon" src="/images/call_icon.png"></image><text class="call_text">联系客服</text>
+    </view>
+
+  	<view class="btnFix_single" style="bottom:420rpx;">
+	    <button class="bNormal">取消</button>
+	</view>   
+	
+	<view class="btnFix_single" style="bottom:230rpx;">
+	    <button class="bWhite">立即支付</button>
+	</view>  
+
+  	<view class="btnFix">
+	  <view class="btnView l"><text>维修参考报价:</text><text class="totalPrice">￥99.99</text></view>
+	  <button class="btnView r">下一步</button>
+	</view>
+	
+</view>
+

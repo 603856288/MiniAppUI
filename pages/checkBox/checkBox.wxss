@@ -1,0 +1,20 @@
+/* pages/checkBox/checkBox.wxss */
+.checkView {
+  margin: 0 30rpx;
+  padding: 40rpx 0;
+}
+
+.checkboxGroup {
+  display: inline-block;
+}
+
+.checkbox {
+  display: inline-block;
+  font-size: 26rpx;
+  color: #9b9b9b;
+}
+
+.openNotes {
+  font-size: 26rpx;
+  color: #057bff;
+}

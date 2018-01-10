@@ -1,0 +1,31 @@
+<!--pages/steps/steps.wxml-->
+<view class="container" style="background:#fff;">
+	<view class="stepList">
+      <view class="step {{(orderDetail.status==5||orderDetail.status==6)?'step-on':'hide'}}">
+        <view>
+          <text class="t1">已返机</text>
+          <text class="look-btn" data-za-title="查看回寄物流">查看回寄物流</text>
+        </view>
+        <view class="marT15"><text class="t2">{{orderDetail.payTime}}</text></view>
+      </view>
+      <view class="step {{(orderDetail.status==5||orderDetail.status==6)?'':'hide'}}">
+        <view wx:if="{{orderDetail.status==5}}"><text class="t1">已维修</text></view>
+        <view class="marT15"><text class="t2">{{orderDetail.payTime}}</text></view>
+      </view>
+      <view class="step {{orderDetail.status==4?'step-on':''}} {{(orderDetail.status==4||orderDetail.status==5||orderDetail.status==6)?'':'hide'}}">
+        <view><text class="t1">已检测</text></view>
+        <view class="marT15"><text class="t2">{{orderDetail.payTime}}</text></view>
+      </view>
+      <view class="step {{orderDetail.status==2?'step-on':''}} {{orderDetail.status!=1?'':'hide'}}">
+        <view><text class="t1">已受理</text></view>
+        <view class="marT15"><text class="t2">{{orderDetail.payTime}}</text></view>
+      </view>
+      <view class="step {{orderDetail.status==1?'step-on':''}}">
+        <view>
+          <text class="t1">报案成功</text>
+          <text class="look-btn" data-za-title="查看取送件物流">查看取件物流</text>
+        </view>
+        <view class="marT15"><text class="t2">{{orderDetail.payTime}}</text></view>
+      </view>
+    </view>  
+</view>

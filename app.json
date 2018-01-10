@@ -1,0 +1,19 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/mark/mark",
+    "pages/dialog/dialog",
+    "pages/steps/steps",
+    "pages/form/form",
+    "pages/tips/tips",
+    "pages/checkBox/checkBox",
+    "pages/button/button",
+    "pages/wetoast/wetoast"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  }
+}

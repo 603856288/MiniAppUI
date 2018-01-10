@@ -1,0 +1,16 @@
+<!--pages/tips/tips.wxml-->
+<view class="tips_b" style="margin-top:30rpx;">
+    <view>
+      <text class='fl'>*</text><text class='fl'>您在工作日AM10:00-PM18:00期间，上门服务订单成功下单后30分钟内会有工程师和您电话联系，其他时间段下单联系时间会有延长，请您耐心等待并保持电话畅通。</text>
+    </view>
+    <view>
+      <text class='fl'>*</text><text class='fl'>当前报价为系统预测报价，实际以维修方检测后为准。</text>
+    </view>
+    <view>
+      <text class='fl'>*</text><text class='fl'>损坏零件需被工程师收回，如需自留，则另补差价。</text>
+    </view>
+</view>
+
+<view class="tips_m mar_c_30" style="margin-top:30rpx;">
+  <text>* 参考报价为系统预测报价，实际以工程师上门检测为准</text>
+</view>

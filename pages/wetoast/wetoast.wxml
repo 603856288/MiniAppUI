@@ -1,0 +1,9 @@
+<import src="../../components/wetoast/wetoast.wxml"/>
+
+<view class="container">  
+  <button class="btnNormal" bindtap="type01">wetoastTest01</button>
+  <button class="btnNormal" bindtap="type02">wetoastTest02</button>
+</view>
+
+<!-- wetoast -->
+<template is="wetoast" data="{{...__wetoast__}}"/>

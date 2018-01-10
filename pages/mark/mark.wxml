@@ -1,0 +1,36 @@
+<view class="container">
+	<view class="comment-result">
+		<view class="starCol">
+		  	<view class="starRow">
+			  <text class="starTitle fl">维修质量</text>
+			  <view class="fr">
+			  	<block wx:for="{{stars}}">
+					<image class="star-image"  src="{{key[0] > item ?selectedSrc : normalSrc}}">
+					<view class="star-item" data-key="{{item+1}}" data-zIndex="0" data-za-title="打分" bindtap="selectClick"></view>
+					</image>
+				</block>
+			  </view>
+			</view> 
+			<view class="starRow">
+			  <text class="starTitle fl">服务态度</text>
+			  <view class="fr">
+			  	<block wx:for="{{stars}}">
+					<image class="star-image" src="{{key[1] > item ?selectedSrc : normalSrc}}">
+					<view class="star-item" data-key="{{item+1}}" data-zIndex="1" data-za-title="打分" bindtap="selectClick"></view>
+					</image>
+				</block>
+			  </view>
+			</view> 
+			<view class="starRow">
+			  <text class="starTitle fl">服务时效</text>
+			  <view class="fr">
+			  	<block wx:for="{{stars}}">
+					<image class="star-image"  src="{{key[2] > item ?selectedSrc : normalSrc}}">
+					<view class="star-item" data-key="{{item+1}}" data-zIndex="2" data-za-title="打分" bindtap="selectClick"></view>
+					</image>
+				</block>
+			  </view>
+			</view> 
+		</view>
+	</view>
+</view>

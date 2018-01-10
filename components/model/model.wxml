@@ -1,0 +1,15 @@
+<template name="3cModel">
+	<view hidden="{{modalHidden ? true : false}}" class="showModel">
+        <view class="mask"></view>
+        <view class="model-content">
+            <view class="model-inner">
+                <text class="title">{{title}}</text>
+                <text class="content">{{content}}</text>
+            </view>
+            <view class="close-btn" bindtap="{{modelBindTap}}">
+                <image class="close-icon" src="../../images/closeBtn.png" mode="aspectFit" />
+            </view>
+        </view> 
+	</view>
+</template>
+

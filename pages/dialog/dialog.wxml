@@ -1,0 +1,15 @@
+<import src="../../components/dialog/dialog.wxml" />
+<import src="../../components/model/model.wxml" />
+
+<view class="container" style="padding:50rpx 0 0 0">  
+  <button class="btnNormal" bindtap="type01">dialogTest01</button>
+  <button class="btnNormal" bindtap="type02">dialogTest02</button>
+  <view bindtap="modelTest01">
+     <image style="width:60rpx;height:60rpx;margin:0 auto;display:block;" src="../../images/about_btn.png" mode="aspectFit"/>
+  </view>
+</view>
+<!-- dialog -->
+<template is="3cDialog" data="{{...dialogItem}}"/>
+<!-- model -->
+<template is="3cModel" data="{{...modelItem}}"/>
+

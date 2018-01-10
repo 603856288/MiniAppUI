@@ -1,0 +1,15 @@
+<!--pages/checkBox/checkBox.wxml-->
+<view class="container">  
+  	<view class="checkView">
+      <checkbox-group class="checkboxGroup" bindchange="checkboxChange" data-za-title="选中协议">
+        <label class="checkbox">
+          <checkbox color="#0097ff" value="{{item.name}}" checked="{{item.checked}}" />已阅读并同意
+        </label>
+      </checkbox-group>
+      <text class="openNotes" bindtap="openNotes">《马上修维修服务协议》</text>
+    </view>
+    
+	
+    <text class="checkboxBg_on" style="margin-top:20px;margin-left:10px"></text>
+    <text class="checkboxBg" style="margin-top:10px;margin-left:10px"></text>
+</view>

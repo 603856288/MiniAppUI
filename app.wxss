@@ -1,0 +1,8 @@
+@import "assets/stylesheets/base.wxss";
+@import "assets/stylesheets/common.wxss";
+/*公共样式*/
+@import "components/dialog/dialog.wxss";
+@import "components/model/model.wxss";
+/*对话框样式*/
+@import "components/wetoast/wetoast.wxss";
+/*wetoast样式*/

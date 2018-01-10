@@ -1,0 +1,18 @@
+page{
+  background:#f5f5f5;
+}
+.tt{
+	text-align:center;
+	height:120rpx;
+	line-height:120rpx;
+	color:#666;
+}
+.viewNormal{
+	height:90rpx;
+	line-height:90rpx;
+	border-bottom:1rpx solid #ccc;
+	padding: 0 20rpx;
+	margin:0 0 0 30rpx;
+	color:#999;
+}
+

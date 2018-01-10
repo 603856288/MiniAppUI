@@ -1,0 +1,13 @@
+<template name="3cDialog">
+	<view hidden="{{dialogHidden ? true : false}}" class="dialog">
+	  <view class="mask"></view>
+	  <view class="inner">
+	  	<view class="icon_img {{!iconSrc ? 'hide' : ''}}">
+	    	<image src="{{iconSrc}}"/>
+	    </view>
+	    <view class="tt marB25">{{tt}}</view>  
+	    <view class="detail">{{msg}}</view>
+	    <button class="btnDialog" bindtap="{{dialogBindTap}}">{{btnText}}</button>
+	  </view>  
+	</view>
+</template>

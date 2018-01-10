@@ -1,0 +1,12 @@
+<view class="container">  
+  <view class="tt">组件列表</view>	
+  <view class="viewNormal" bindtap="dialog">dialog</view>
+  <view class="viewNormal" bindtap="wetoast">wetoast</view>
+  <view class="viewNormal" bindtap="button">button</view>
+  <view class="viewNormal" bindtap="steps">steps</view>
+  <view class="viewNormal" bindtap="form">form</view>
+  <view class="viewNormal" bindtap="tips">tips</view>
+  <view class="viewNormal" bindtap="checkBox">checkBox</view>
+  <view class="viewNormal" bindtap="mark">mark</view>
+</view>
+
