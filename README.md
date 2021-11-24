@@ -1,6 +1,5 @@
-chenzezhou@zhongan.com
-
-3c 数码微信小程序常用UI
+603856288@qq.com
+微信小程序常用UI
 
 index---首页，包含组件列表
 button---常用按钮
